@@ -40,3 +40,40 @@ ul,li,a{
     margin-right: 5px;
     cursor: pointer;
 }
+
+.card-container{
+    padding: 20px;
+    /* width: 40%; */
+    border: 1px solid black ;
+    display: flex;
+    border-radius: 10px; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    padding: 40px 40px;
+}
+
+.card input{
+    width: 500px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.card button{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
